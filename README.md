@@ -30,7 +30,7 @@ A replicated, fault tolerant key-value storage based on a DHT like Chord but wit
 
 Most of the tests were conducted on 5 AVD instances running in parallel with concurrent socket reads and writes.
 
-Drawbacks of the existing code is that it hacks around the handshake using a sleep on the socket. Ideally a threeway handshake would ensure good crossplatform code.
+Drawback of the existing code is that it hacks around the handshake using a sleep on the socket. Ideally a threeway handshake would ensure good crossplatform code.
 
 # Final Remarks
 The course itself was a rewarding experience as it covered engaging topics ranging from CAP, election algorithm, the impossibility of consensus, PAXOS, among other things.
