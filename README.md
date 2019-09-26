@@ -18,7 +18,8 @@ Here, the focus is on building a content provider and implementing multicast.
 This is where things get interesting. This projects involves implementing a Group Messenger with Total and FIFO Ordering guarantees under single failure.
 
 ### Project 4 - Simple Distributed Hash Table based on Chord
-Another interesting project that implements a Simple Distributed Hash Table based on CHORD ( http://www.cse.buffalo.edu/~stevko/courses/cse486/spring19/files/chord_sigcomm.pdf )
+Another interesting project that implements a Simple Distributed Hash Table based on CHORD 
+(http://www.cse.buffalo.edu/~stevko/courses/cse486/spring19/files/chord_sigcomm.pdf)
 The implementation handles entry and exit of AVDs during operating, consistent hashing and ring based routing.
 
 
