@@ -1,6 +1,6 @@
 # Distributed Systems
 
-Course Website: https://cse.buffalo.edu/~stevko/courses/cse486/spring19/syllabus.html
+[Course Website](https://cse.buffalo.edu/~stevko/courses/cse486/spring19/syllabus.html)
 
 This course covers the ins and outs of distributed systems, replication, distributed hash tables, chord (ring based routing), Amazon DynamoDB style key value persistent storage and retrival systems that come with high availability and fault tolerance and eventual consistency.
 
