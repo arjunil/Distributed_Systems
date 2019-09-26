@@ -8,24 +8,21 @@ This course covers the ins and outs of distributed systems, replication, distrib
 These projects work incrementally towards building an Amazon DynamoDB style persistent, fault tolerant, key value storage.
 
 
-### Project 1
+### Project 1 - Sockets on AVDs
 This is a basic setup project that allows socket reads and writes on AVDs (Android virtual devices)
 
-### Project 2
-
+### Project 2 - Group Messenger with multicast
 Here, the focus is on building a content provider and implementing multicast.
 
-### Project 3
-This is where things get interesting. This projects involves implementing a Group Messenger with Total and FIFO Ordering guarantees
-under single failure.
+### Project 3 - Group Messenger with Total and FIFO Ordering
+This is where things get interesting. This projects involves implementing a Group Messenger with Total and FIFO Ordering guarantees under single failure.
 
-### Project 4
-
+### Project 4 - Simple Distributed Hash Table based on Chord
 Another interesting project that implements a Simple Distributed Hash Table based on CHORD ( http://www.cse.buffalo.edu/~stevko/courses/cse486/spring19/files/chord_sigcomm.pdf )
 The implementation handles entry and exit of AVDs during operating, consistent hashing and ring based routing.
 
 
-### Project 5
+### Project 5 - Simple Amazon DynamoDB
 And the cherry on the cake. A simplified version of Amazon's DynamoDB.
 A replicated, fault tolerant key-value storage based on a DHT like Chord but without ring based routing as every node knows every other. Replication occurs on the two succeeding nodes in the ring, with a replication degree of 3 and read and write quorums of 2. It supports concurrent operations with failures.
 
