@@ -27,10 +27,11 @@ The implementation handles entry and exit of AVDs during operating, consistent h
 
 ### Project 5
 And the cherry on the cake. A simplified version of Amazon's DynamoDB.
-A replicated, fault tolerant key-value storage based on a DHT like Chord but without ring based routing as every node knows every other. Replication occurs on the two succeeding nodes in the ring and in case of failure of the primary node, with a replication degree of 3 and read and write quorums of 2 each. The grader tests for concurrent operations with one consistent failure, which the code successfully passes.
+A replicated, fault tolerant key-value storage based on a DHT like Chord but without ring based routing as every node knows every other. Replication occurs on the two succeeding nodes in the ring, with a replication degree of 3 and read and write quorums of 2. It supports concurrent operations with failures.
 
 
 Most of the tests were conducted on 5 AVD instances running in parallel with concurrent socket reads and writes.
+
 Drawbacks of the existing code is that it hacks around the handshake using a sleep on the socket. Ideally a threeway handshake would ensure good crossplatform code.
 
 # Final Remarks
